@@ -228,7 +228,8 @@ nav li:hover {
 /* Contact Section */
 #contact {
   /* background: var(--dark-color); */
-  background: #121212;
+  /* background: #121212; */
+  background: #1E1E1E;
 }
 
 #contact h2 {
