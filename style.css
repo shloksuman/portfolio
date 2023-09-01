@@ -49,6 +49,21 @@ a:hover {
   transform: scale(1.05);
 }
 
+ /* .link { */
+  /* Add this CSS code to your stylesheet */
+
+  /* margin-right: 20px; Add 20px margin to the right of the LinkedIn link */
+
+/* }  */
+
+/* Add this CSS code to your stylesheet */
+.top_contact a:nth-child(2) {
+  margin-left: 26px; /* Add 20px margin to the left of the second anchor element */
+}
+.bottom_contact a:nth-child(2) {
+  margin-left: 22px; /* Add 20px margin to the left of the second anchor element */
+}
+
 
 
 ul {
@@ -58,8 +73,13 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--lighting-color);
+  /* background: var(--lighting-color); */
+  /* background: linear-gradient(to right, #0074e4, #ff0000); */
+  background: linear-gradient(to right, #130081, #010000);
+
 }
+
+
 
 section {
   scroll-margin-top: 50px;
@@ -90,7 +110,8 @@ nav li:hover {
 }
 
 #hero {
-  background: var(--dark-color);
+  /* background: var(--dark-color); */
+  background: #1E1E1E;
   padding: 4rem 0;
   border-bottom: 4px solid var(--lighting-color);
   max-height: 100vh;
@@ -150,7 +171,8 @@ nav li:hover {
 /* Project Section */
 
 #project {
-  background: var(--darker-color);
+  /* background: var(--darker-color); */
+  background: #1E1E1E;
 }
 
 #project h2 {
@@ -205,7 +227,8 @@ nav li:hover {
 
 /* Contact Section */
 #contact {
-  background: var(--dark-color);
+  /* background: var(--dark-color); */
+  background: #121212;
 }
 
 #contact h2 {
@@ -253,7 +276,8 @@ nav li:hover {
 /* Footer */
 
 footer {
-  background: var(--darker-color);
+  /* background: var(--darker-color); */
+  background: linear-gradient(to right, #130081, #010000);
   padding: 2rem;
   color: white;
   font-size: 1.6rem;
