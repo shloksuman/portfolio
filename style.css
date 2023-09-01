@@ -49,21 +49,6 @@ a:hover {
   transform: scale(1.05);
 }
 
- /* .link { */
-  /* Add this CSS code to your stylesheet */
-
-  /* margin-right: 20px; Add 20px margin to the right of the LinkedIn link */
-
-/* }  */
-
-/* Add this CSS code to your stylesheet */
-.top_contact a:nth-child(2) {
-  margin-left: 26px; /* Add 20px margin to the left of the second anchor element */
-}
-.bottom_contact a:nth-child(2) {
-  margin-left: 22px; /* Add 20px margin to the left of the second anchor element */
-}
-
 
 
 ul {
@@ -273,6 +258,23 @@ nav li:hover {
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 }
+
+
+ /* .link { */
+  /* Add this CSS code to your stylesheet */
+
+  /* margin-right: 20px; Add 20px margin to the right of the LinkedIn link */
+
+/* }  */
+
+/* Add this CSS code to your stylesheet */
+.top_contact a:nth-child(2) {
+  margin-left: 26px; /* Add 20px margin to the left of the second anchor element */
+}
+.bottom_contact a:nth-child(2) {
+  margin-left: 22px; /* Add 20px margin to the left of the second anchor element */
+}
+
 
 /* Footer */
 
